@@ -49,7 +49,7 @@ Trong buổi làm việc nhóm, mình đóng vai trò **người đề xuất gi
 
 ### Nếu làm lại, mình sẽ đổi gì?
 
-1. **Tư duy đa dạng hơn ngay từ đầu.** Lúc đầu mình bị cuốn vào chủ đề điểm danh nên 3 problems đầu tiên bị trùng lặp gốc rễ. Dù sau đó đã bổ sung thêm các bài toán khác như nghẽn mạng đăng ký tín chỉ hay lịch học/lịch thi thay đổi để đa dạng hóa danh sách 7 problems, nếu làm lại mình sẽ brainstorm rộng hơn ngay từ đầu để tiết kiệm thời gian chỉnh sửa.
+1. **Tư duy đa dạng hơn ngay từ đầu.** Lúc đầu mình bị cuốn vào chủ đề điểm danh nên 3 problems đầu tiên bị trùng lặp gốc rễ. Dù sau đó đã bổ sung thêm các bài toán khác như nghẽn mạng đăng ký tín chỉ hay lịch học/lịch thi thay đổi để đa dạng hóa danh sách 8 problems, nếu làm lại mình sẽ brainstorm rộng hơn ngay từ đầu để tiết kiệm thời gian chỉnh sửa.
 
 2. **Phỏng vấn GV sớm hơn.** Mình chỉ hỏi SV. Nếu hỏi thêm GV và phòng đào tạo, mình sẽ hiểu rõ hơn constraint triển khai thực tế (ngân sách, privacy policy, quy trình phê duyệt).
 

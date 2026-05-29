@@ -33,7 +33,7 @@ Mở `02-deliverable-example.md` — case **Weekly Report trước và sau AI** 
 
 > **Deliverable:** 5+ problem candidates từ trải nghiệm thật
 
-### Scan rộng — 7 problems
+### Scan rộng — 8 problems (Đạt mốc nhận điểm thưởng bonus)
 
 | # | Lăng kính | Problem quan sát được | Ai đang đau? | Dấu hiệu thật |
 |---|---|---|---|---|
@@ -44,6 +44,8 @@ Mở `02-deliverable-example.md` — case **Weekly Report trước và sau AI** 
 | 5 | Pain từ người khác | Đặt phòng thư viện/phòng tự học nhóm: phải đến tận nơi hoặc gọi điện kiểm tra do không có hệ thống online, dễ mất công đi lại khi hết phòng. | SV cần học nhóm | Mất 15-20 phút đi lại nhưng thường xuyên hết phòng trống |
 | 6 | Tốn thời gian | Họp nhóm khó sắp lịch: 4-5 người có thời khóa biểu khác nhau, trao đổi qua Zalo mất rất nhiều thời gian mới chốt được giờ trống chung. | SV làm bài tập lớn | Mất 1-2 ngày nhắn tin qua lại mới chốt được lịch họp |
 | 7 | AI có thể tốt hơn | Ôn thi không hiệu quả: đề cương dài 20-30 trang, SV không biết nên ôn tập trung phần nào cho sát đề thi thực tế. | SV trước kỳ thi | SV ôn tràn lan tất cả các phần nhưng không đạt kết quả mong muốn |
+| 8 | Lặp lại + Pain từ người khác | Quên mang thẻ sinh viên vật lý: Trường bắt quét thẻ từ vật lý để qua cổng an ninh gửi xe và cửa thư viện/lab. SV hay quên thẻ ở phòng/balo khác, dẫn đến phải quay về lấy hoặc xếp hàng đăng ký giấy thủ công mất thời gian. | SV + bảo vệ/thủ thư | SV quên thẻ trung bình 1-2 lần/tháng, mất 15-20 phút xử lý thủ công gây nghẽn quầy an ninh. |
+
 
 ### Top 3 — lý do chọn
 
