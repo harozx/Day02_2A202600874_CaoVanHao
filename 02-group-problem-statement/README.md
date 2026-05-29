@@ -120,7 +120,9 @@ Nhóm tiến hành khảo sát nhanh 5 sinh viên ngoài nhóm:
 | Nguồn | Số người | Tín hiệu xác nhận | Tín hiệu phản xác nhận/phản bác | Nhóm sửa problem thế nào |
 |---|---|---|---|---|
 | **Khảo sát nhanh SV** | 5 | SV chưa tải được app của nhà trường để quét điểm danh, bị lỗi phiên bản thiết bị, bị camera mờ, và wifi yếu không quét được. | Đến buổi chiều nhà trường đã đưa ra 1 phương án dự phòng là dùng Google Form để SV tự điền điểm danh bù. | Tập trung vào việc xây dựng FaceID tự động độc lập, không phụ thuộc vào app nhà trường hay Google Form điền tay của SV, giúp SV qua cửa lớp là tự ghi nhận. |
+| **Ghi nhận thực tế lớp học (Tiết 2 hôm nay)** | Cả lớp (~170 SV) | Thầy giáo đứng lớp chủ động hỏi xem có ai bị lỗi quét mã buổi sáng chưa điểm danh được, ngay lập tức có **hơn 20 SV giơ tay**. | Con số thực tế bị lỗi có thể còn lớn hơn vì thời điểm đó đang giờ nghỉ giải lao, một số bạn đang ngủ hoặc ở ngoài phòng học. | Khẳng định lỗi quét QR xảy ra quy mô lớn trên diện rộng cùng lúc tại lớp học thực tế chứ không phải lỗi cá biệt. Rất cần thiết tự động hóa hoàn toàn. |
 | **Phân tích Log Chuyên Cần kì trước** | 1500 lượt | 25% SV phải dùng form dự phòng ít nhất 1 lần trong kì; 8% lượt điểm danh bị ghi nhận vắng oan do sự cố ứng dụng. | Quy trình hành chính cần 24 giờ để giảng viên kiểm tra mail và sửa điểm danh trên Excel. | Tích hợp trực tiếp API nhận diện vào cơ sở dữ liệu chuyên cần của trường để cập nhật trạng thái realtime, giảm độ trễ phản hồi từ 24h xuống <1 giây. |
+
 
 
 
