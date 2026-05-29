@@ -12,20 +12,20 @@
 
 ### Bước 1: Chia sẻ Top 3 của các thành viên
 
-**Cao Văn Hảo (2A202600874):**
-- **Hảo #1:** App QR điểm danh lỗi: không tương thích iOS < 16, wifi lag 500 SV cùng lúc, camera mờ, và gian lận quét hộ qua Zalo.
-- **Hảo #4:** Tìm tài liệu môn học bị phân tán trên 4-5 nền tảng (LMS, Drive, Zalo, email) gây mất thời gian.
-- **Hảo #7:** Ôn thi không hiệu quả: đề cương dài 20-30 trang, học lan man không sát đề thực tế.
+**1. Cao Văn Hảo (2A202600874):**
+- **Hảo #1 (App QR điểm danh lỗi & dễ gian lận):** Khoảng 20-30% sinh viên trong tổng số 500 SV không thể điểm danh quét QR code do điện thoại cũ không tương thích iOS < 16, wifi trường nghẽn giờ cao điểm khi hàng trăm người truy cập cùng lúc, và camera mờ quét lỗi. Đồng thời, xảy ra tình trạng gian lận nghiêm trọng khi SV chụp ảnh QR gửi qua nhóm Zalo để điểm danh hộ từ xa.
+- **Hảo #4 (Tìm tài liệu môn học bị phân tán):** SV mất rất nhiều thời gian (10-15 phút/lần) tìm kiếm tài liệu học tập bị phân tán trên 4-5 nền tảng khác nhau (LMS, Google Drive, Zalo, Email, Website giảng viên) và thường không biết đâu là phiên bản cập nhật mới nhất.
+- **Hảo #7 (Ôn thi kém hiệu quả):** SV trước kỳ thi đối mặt với đề cương dài 20-30 trang, học lan man và không biết trọng tâm ôn tập sát với đề thi thực tế, dẫn đến việc dành 2-3 ngày ôn tập mệt mỏi nhưng kết quả không như mong muốn.
 
-**Vũ Tuấn Hoàng (2A202600830):**
-- **Hoàng #1:** Lượng kiến thức lý thuyết quá lớn, dễ bị ngợp và khó áp dụng thực hành.
-- **Hoàng #5:** Khó khăn cấu hình môi trường, cài đặt thư viện và kết nối hệ thống khi làm Lab.
-- **Hoàng #2:** Thông báo, tài liệu môn học bị phân tán rải rác ở nhiều kênh (Zalo, LMS...).
+**2. Vũ Tuấn Hoàng (2A202600830):**
+- **Hoàng #1 (Learning Overwhelm - Ngợp kiến thức lý thuyết):** Sinh viên ngành Công nghệ / Data bị ngợp bởi lượng lý thuyết quá đồ sộ của các môn chuyên ngành (slide/giáo trình 50-100 trang). SV đọc thụ động (Passive Reading) mất 2-3 tiếng và ghi chép Notion cơ học nhưng mau quên, khi làm bài thực hành/Lab không nhớ kiến thức và phải tra cứu lại từ đầu.
+- **Hoàng #5 (Lab Setup Nightmare - Cấu hình môi trường Lab):** SV mất nguyên cả buổi học (2-3 tiếng) chỉ để cài đặt thư viện, cấu hình môi trường chạy code, và kết nối dữ liệu hệ thống mỗi khi làm bài Lab mới. Việc gặp các lỗi dị biệt về môi trường gây ức chế, lãng phí thời gian và làm chậm tiến độ làm bài Lab/dự án.
+- **Hoàng #2 (Distributed Materials - Tài liệu học tập phân tán rải rác):** Các thông báo quan trọng và tài liệu môn học bị gửi rải rác trên Zalo, LMS, Facebook Group, Teams... khiến SV thường xuyên bị trôi tin nhắn, sót deadline quan trọng và phải mất 10-15 phút lục lọi tìm lại mỗi khi cần.
 
-**Phạm Quang Huy (2A202600586):**
-- **Huy #1:** CSKH hoàn tiền đổi trả bị quá tải ngày Sale lớn trong thương mại điện tử.
-- **Huy #2:** Lọc CV tuyển dụng quy mô lớn tốn thời gian đọc thủ công (bài toán ATS).
-- **Huy #3:** IT Helpdesk nội bộ quá tải vì các lỗi vặt lặp đi lặp lại.
+**3. Phạm Quang Huy (2A202600586):**
+- **Huy #1 (CSKH hoàn tiền đổi trả quá tải ngày Sale):** Nhân viên CSKH (CSKH Agent) e-commerce bị quá tải xử lý hàng chục ngàn khiếu nại hoàn tiền/đổi trả vào ngày Sale lớn (8/8, 9/9...). Khách hàng thường thiếu hình ảnh/video bằng chứng (proof) sản phẩm lỗi, và Agent mất nhiều thời gian tra cứu thủ công lịch sử đơn hàng trên nhiều hệ thống, làm giảm chỉ số hài lòng khách hàng (CSAT).
+- **Huy #2 (Lọc CV tuyển dụng quy mô lớn - ATS):** Chuyên viên tuyển dụng (Recruiter) quản lý đợt Mass Recruitment bị quá tải khi phải đọc tay hơn 1000 hồ sơ ứng viên/đợt. CV gửi về sai định dạng, thiếu thông tin cốt lõi (kỹ năng, kinh nghiệm) làm kéo dài thời gian tuyển dụng (Time-to-hire) và dễ bỏ sót ứng viên tiềm năng.
+- **Huy #3 (IT Helpdesk nội bộ quá tải):** Bộ phận IT Helpdesk trong doanh nghiệp lớn (2000 nhân viên) bị quá tải bởi hàng loạt yêu cầu báo lỗi vặt lặp đi lặp lại (quên mật khẩu, lỗi Wi-Fi, cài driver máy in). Nhân viên báo lỗi chung chung không chụp màn hình khiến IT mất thời gian hỏi han, không có thời gian xử lý sự cố hạ tầng lớn.
 
 ---
 
@@ -101,11 +101,22 @@ Nhóm chấm điểm các bài toán ứng viên chính theo thang điểm 1-5 (
 
 **Quyết định cuối cùng của nhóm:** **Chọn Hệ thống điểm danh (FaceID)** làm bài toán trọng tâm.
 
-**Lý do lựa chọn:**
-- **Sự đồng thuận (3/3):** Cả nhóm đều trực tiếp trải nghiệm sự bất tiện của hệ thống QR hiện tại hàng ngày.
-- **Impact cực lớn:** Tần suất xảy ra hàng ngày với 500 sinh viên toàn khóa. Vắng học quá 4 buổi (>20% thời lượng) đồng nghĩa với việc mất quyền dự thi, nên lỗi điểm danh gây ảnh hưởng cực kỳ nghiêm trọng đến kết quả học tập.
-- **Tính khả thi của dữ liệu:** Dự án điểm danh tại trường cho phép nhóm dễ dàng tiến hành khảo sát, lấy dữ liệu khuôn mặt thực tế (với sự đồng thuận) và kiểm chứng hiệu năng. Ngược lại, các bài toán doanh nghiệp của Huy (CSKH, tuyển dụng) dù có ROI cao nhưng cực kỳ khó tiếp cận dữ liệu khách hàng và quy trình thực tế của doanh nghiệp trong thời gian ngắn làm lab.
-- **AI là duy nhất:** Chỉ có Face Recognition (AI) mới có thể tự động hóa 100% quá trình nhận dạng mà không cần sinh viên phải thao tác trên điện thoại hay kết nối wifi.
+**Lý do lựa chọn chi tiết và biện luận so sánh giữa các dự án của thành viên:**
+
+Sau khi thảo luận kỹ lưỡng và đánh giá chéo cả 9 bài toán cá nhân, nhóm quyết định **hội tụ về dự án Điểm danh bằng FaceID (Hảo #1)** và loại bỏ các đề xuất khác của Hoàng và Huy dựa trên các lập luận sau:
+
+1. **Tại sao không chọn các bài toán của Vũ Tuấn Hoàng?**
+   - *Lượng kiến thức ngợp (Hoàng #1) & Ôn thi hiệu quả (Hảo #7):* Lĩnh vực hỗ trợ học tập cá nhân hóa tuy rất hấp dẫn nhưng mang tính cảm tính cao. Định nghĩa thế nào là "nhớ lâu" hay "hiểu sâu" rất khó đo lường bằng một chỉ số kỹ thuật chính xác trong thời gian ngắn làm lab. Đồng thời, thuật toán đề xuất lộ trình ôn tập đòi hỏi lượng dữ liệu người dùng cực kỳ khổng lồ để kiểm chứng hiệu năng, không khả thi cho một MVP 2 tuần.
+   - *Cấu hình môi trường Lab (Hoàng #5):* Lỗi cài đặt thư viện và xung đột hệ thống lập trình cực kỳ phức tạp, đa dạng và không có quy chuẩn chung (phụ thuộc vào hệ điều hành, phần cứng, phiên bản thư viện cũ/mới). Việc thu thập dữ liệu về tất cả các lỗi cài đặt có thể xảy ra để huấn luyện một mô hình AI có độ chính xác cao là bất khả thi trong môi trường lab học sinh.
+
+2. **Tại sao không chọn các bài toán của Phạm Quang Huy?**
+   - *Quy trình doanh nghiệp - CSKH hoàn tiền (Huy #1), Lọc CV ATS (Huy #2), IT Helpdesk (Huy #3):* Các bài toán này đều mang lại giá trị thực tế (ROI) cực kỳ lớn cho doanh nghiệp. Tuy nhiên, rào cản lớn nhất đối với sinh viên làm dự án học đường là **tính bảo mật dữ liệu và tiếp cận đối tượng**. Nhóm không thể xin dữ liệu khách hàng thật của Shopee/Lazada (Huy #1), không thể lấy 1000 CV thực tế chứa thông tin cá nhân của ứng viên (Huy #2), cũng như không thể khảo sát trực tiếp các recruiter hay CSKH agent chuyên nghiệp hàng ngày để validate giải pháp. Do đó, nếu chọn các bài toán này, nhóm sẽ phải làm việc trên các tập dữ liệu giả lập (mock data), không thể triển khai thử nghiệm thực tế (Real-world Validation) để đo lường mức độ thành công.
+
+3. **Tại sao dự án Điểm danh FaceID (Hảo #1) là lựa chọn tối ưu nhất cho nhóm?**
+   - **Tính khả thi của dữ liệu (Data Feasibility):** Đây là ưu điểm vượt trội nhất. Nhóm có thể trực tiếp tự thu thập ảnh khuôn mặt của các bạn sinh viên trong lớp (với sự đồng ý và ký cam kết bảo mật/consent form) để làm tập dữ liệu huấn luyện. Dữ liệu là thật, trực quan và dễ dàng kiểm soát chất lượng.
+   - **Thử nghiệm thực tế tức thì (Real-world Validation):** Nhóm có thể dễ dàng lắp đặt thử nghiệm một camera IP LAN ngay tại cửa phòng học thực tế, chạy trực tiếp mô hình nhận diện khuôn mặt và lấy ý kiến phản hồi từ giảng viên cũng như sinh viên lớp bên cạnh ngay lập tức. Tính R/W/A (Real/Win/Worth) được chứng minh ngay tại chỗ.
+   - **Quy trình tuyến tính, nghiệp vụ rõ ràng:** Workflow điểm danh là đóng khung (vào lớp -> nhận diện -> ghi log). Không có nhiều ngoại lệ phức tạp ngoài việc AI nhận diện sai hoặc không nhận diện được (đã được giải quyết bằng fallback Giảng viên ghi nhận thủ công). Việc tích hợp API trực tiếp vào database chuyên cần giúp cập nhật trạng thái realtime cực kỳ rõ ràng.
+   - **AI là duy nhất và không thể thay thế:** Chỉ có Face Recognition (AI) mới giải quyết được đồng thời hai nút thắt lớn nhất: (1) Không cần sử dụng điện thoại cá nhân và wifi trường của SV (bỏ hẳn bottleneck quét QR lỗi); (2) Chống gian lận điểm danh hộ tuyệt đối (so với việc quét QR code chụp màn hình gửi Zalo).
 
 ---
 
