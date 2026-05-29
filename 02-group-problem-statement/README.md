@@ -234,7 +234,7 @@ CURRENT STATE — 8 bước, 8-18 phút
 ### 2. Sơ đồ workflow tương lai (To-Be)
 
 ```text
-FUTURE STATE — 6 bước, <1 phút
+FUTURE STATE — 5 bước, <1 phút
 ┌──────────────┐      ┌──────────────────┐      ┌──────────────────┐
 │ Bước 1       │      │ Bước 2           │      │ Bước 3           │
 │ SV bước vào  │───►  │ Camera IP capture│───►  │ AI Server match  │
@@ -247,21 +247,21 @@ FUTURE STATE — 6 bước, <1 phút
 └──────────────┘      └──────────────────┘      └───────┬──────────┘
                                                         │
                             ┌───────────────────────────┴───────────────────────────┐
-                            │ (Match >95%)                                          │ (Match <80% / Camera hỏng)
+                            │ (Match >95%)                                          │ (Match <80% / Lỗi camera)
                             ▼                                                       ▼
                      ┌──────────────┐                                        ┌──────────────┐
-                     │ Bước 4       │                                        │ Bước 5       │
-                     │ Hệ thống ghi │                                        │ FALLBACK:    │
-                     │ log có mặt   │                                        │ Nhập PIN cửa │
-                     │ Ai: Server   │                                        │ Ai: SV 🟢    │
-                     │ ⏱ 0.1'       │                                        │ ⏱ 0.5'       │
-                     │ In: Match ID │                                        │ In: Tablet   │
-                     │ Out: Log DB  │                                        │ Out: Ghi log │
-                     └──────┬───────┘                                        └──────┬───────┘
-                            │                                                       │
-                            ▼                                                       ▼
+                     │ Bước 4       │                                        │ FALLBACK:    │
+                     │ Hệ thống ghi │                                        │ GV điểm danh │
+                     │ log có mặt   │                                        │ thủ công 🟢  │
+                     │ Ai: Server   │                                        └────────────────┘
+                     │ ⏱ 0.1'       │                                        
+                     │ In: Match ID │                                        
+                     │ Out: Log DB  │                                        
+                     └──────┬───────┘                                        
+                            │                                                       
+                            ▼                                                       
                      ┌──────────────────────────────────────────────────────────────┐
-                     │ Bước 6                                                       │
+                     │ Bước 5                                                       │
                      │ Dashboard GV realtime & App SV cập nhật trạng thái           │
                      │ Ai: Dashboard + App 🟢                                       │
                      │ ⏱ 0.1'                                                       │
@@ -275,8 +275,8 @@ FUTURE STATE — 6 bước, <1 phút
 - **Actor:** Camera IP (tự động ghi hình), AI Server (xử lý nhận dạng), Giảng viên (giám sát).
 - **AI Boundary:** Các bước 2, 3 và 4 chạy tự động trên server AI (Phát hiện -> So khớp -> Ghi log).
 - **Human Boundary:** Sinh viên kiểm tra lại kết quả trên App cá nhân. Giảng viên có quyền cao nhất để chỉnh sửa, ghi nhận thủ công nếu có sự cố.
-- **Fallback 1:** So khớp có độ tin cậy < 80% (do đeo khẩu trang, thiếu sáng) -> Sinh viên nhập nhanh mã PIN trên tablet gắn ở cửa lớp.
-- **Fallback 2:** Camera hoặc AI Server mất kết nối hoàn toàn -> Giảng viên chuyển sang điểm danh thủ công.
+- **Fallback:** So khớp có độ tin cậy < 80% (do đeo khẩu trang, thiếu sáng) hoặc camera hỏng -> Giảng viên chủ động điểm danh thủ công (gọi tên/form bù).
+
 
 ---
 
@@ -306,10 +306,11 @@ FUTURE STATE — 6 bước, <1 phút
 | Metric | Trước (QR App) | Sau kỳ vọng (FaceID) | Ghi chú |
 |---|---|---|---|
 | **Tổng thời gian** | 8 - 18 phút | Dưới 1 phút | Tiết kiệm thời gian dạy học của GV. |
-| **Số bước** | 8 bước | 6 bước | Giảm tối đa phiền hà cho sinh viên. |
-| **Bước thủ công** | 8/8 bước | 2/6 bước | Sinh viên chỉ cần đi qua cửa lớp, không cần mở app. |
-| **Bottleneck chính** | Quét QR (Bước 5) | AI nhận diện & Nhập PIN (nếu lỗi) | Chuyển bottleneck hệ thống thành xử lý cá nhân. |
+| **Số bước** | 8 bước | 5 bước | Giảm tối đa phiền hà cho sinh viên. |
+| **Bước thủ công** | 8/8 bước | 2/5 bước | Sinh viên chỉ cần đi qua cửa lớp, không cần mở app. |
+| **Bottleneck chính** | Quét QR (Bước 5) | AI nhận diện & GV check thủ công (nếu lỗi) | Chuyển từ lỗi diện rộng sang xử lý cá nhân. |
 | **Rủi ro mới** | Nghẽn mạng, ĐT không tải được app | Nhận diện sai (False Positive) | Yêu cầu mã hóa dữ liệu và cam kết bảo mật. |
+
 
 ---
 
@@ -385,7 +386,7 @@ Nhóm phân tích ba mức độ ứng dụng AI để lựa chọn giải pháp
 |---|---|
 | **Actor** | 500 sinh viên chia 3 lớp (~170 SV/lớp) + giảng viên tại VinUni. |
 | **Workflow** | SV vào lớp -> camera IP tự động quét mặt -> AI Server so khớp database -> ghi log có mặt -> dashboard hiển thị realtime. |
-| **Bottleneck** | SV đeo khẩu trang/thiếu sáng khiến AI không nhận dạng được (tỷ lệ nhỏ, chuyển sang fallback nhập PIN cửa). |
+| **Bottleneck** | SV đeo khẩu trang/thiếu sáng khiến AI không nhận dạng được (tỷ lệ nhỏ, chuyển sang GV xác minh/điểm danh thủ công). |
 | **Impact** | Tiết kiệm 8-18 phút lãng phí mỗi buổi. Loại bỏ hoàn toàn 20-30% trường hợp lỗi quét QR và 10-15% gian lận. |
 | **Success Metric** | Giảm thời gian điểm danh từ 18 phút xuống <1 phút (↓95%). Triệt tiêu 100% lỗi QR và gian lận quét hộ. |
 | **Boundary** | AI ghi nhận kết quả và lưu log. Giảng viên giữ quyền quyết định cao nhất (Human-in-the-loop) để override kết quả. |

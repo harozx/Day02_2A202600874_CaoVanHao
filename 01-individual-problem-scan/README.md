@@ -103,7 +103,7 @@ Tổng: 8-18 phút/buổi
 
 **Quick gut:** **Workflow** — pipeline: capture frame → detect face → recognize → log.
 
-**Fallback:** AI không nhận diện được (đeo khẩu trang, ánh sáng yếu) → SV dùng mã PIN/QR dự phòng trên tablet tại cửa lớp.
+**Fallback:** AI không nhận diện được (đeo khẩu trang, ánh sáng yếu) → GV kiểm tra chéo và điểm danh thủ công.
 
 ### Draft current workflow
 
@@ -130,7 +130,7 @@ FUTURE STATE — <1 phút
 → [4 Ghi log: mã SV + thời gian: 0.1']
 → [5 SV check trên app: tùy chọn]  ← human boundary
 
-Fallback: AI không nhận → SV nhập mã PIN trên tablet cửa lớp.
+Fallback: AI không nhận → GV kiểm tra và điểm danh thủ công.
 Boundary: AI chỉ nhận diện + log. GV vẫn quyết định cuối cùng.
 ```
 
