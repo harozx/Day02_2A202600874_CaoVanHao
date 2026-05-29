@@ -64,55 +64,14 @@ style: |
 ## Đề xuất: Hệ Thống Điểm Danh FaceID Tự Động VinUni
 ***
 ### Giải pháp thay thế hệ thống QR Code lỗi, chống gian lận & nghẽn mạng
-**Nhóm 2A:** Vũ Tuấn Hoàng (2A202600830) · Cao Văn Hảo (2A202600874) · Phạm Quang Huy (2A202600586)
-**Giảng viên hướng dẫn:** AI Product Labs Instructor
+**Nhóm 2A:** Vũ Tuấn Hoàng · Cao Văn Hảo · Phạm Quang Huy
 **Ngày:** 29/05/2026
 
 ---
 
-## 1. Top 3 Bài Toán Cá Nhân - Vũ Tuấn Hoàng (2A202600830)
+## 1. Tổng Quan Quá Trình Hội Tụ Nhóm (Phase 3)
 
-*   **Hoàng #1: Lượng kiến thức lý thuyết quá lớn (Learning Overwhelm)**
-    *   *Actor:* Sinh viên ngành Công nghệ / Data.
-    *   *Workflow/Bottleneck:* Đọc slide/giáo trình thụ động 50-100 trang $\rightarrow$ tốn 2-3 tiếng take note cơ học nhưng khi thực hành lại quên sạch và phải Google từ đầu.
-    *   *Impact:* Stuck code liên tục, mất gốc lý thuyết, điểm đồ án kém.
-*   **Hoàng #5: "Ác mộng" cấu hình môi trường làm Lab (Lab Setup)**
-    *   *Workflow/Bottleneck:* Cài đặt thư viện, cấu hình OS, kết nối database cho lab mới $\rightarrow$ mất nguyên buổi học (2-3 tiếng) gỡ lỗi môi trường không kịp làm bài Lab.
-*   **Hoàng #2: Tài liệu học tập môn học phân tán**
-    *   *Workflow/Bottleneck:* GV gửi link, slide, tài liệu rải rác trên Zalo, LMS, Teams, Drive $\rightarrow$ chìm tin nhắn, mất 15 phút tìm kiếm, dễ bị sót deadline quan trọng.
-
----
-
-## 2. Top 3 Bài Toán Cá Nhân - Phạm Quang Huy (2A202600586)
-
-*   **Huy #1: Quá tải khiếu nại hoàn tiền ngày Sale (CSKH E-Commerce)**
-    *   *Actor:* CSKH Agent sàn e-commerce.
-    *   *Workflow/Bottleneck:* Đọc giải trình $\rightarrow$ tra cứu lịch sử đơn $\rightarrow$ duyệt. Tuy nhiên, khách thiếu video/ảnh bằng chứng lỗi, Agent mất thời gian check tay.
-    *   *Impact:* Agent bị stress vì quá tải ticket; thời gian xử lý tăng cao; khách hàng đánh giá 1 sao.
-*   **Huy #2: Sàng lọc CV quy mô lớn (Recruiting ATS)**
-    *   *Actor:* Recruiter quản lý mass recruitment (>1000 hồ sơ/đợt).
-    *   *Workflow/Bottleneck:* Đọc CV tay $\rightarrow$ CV sai định dạng, thiếu kinh nghiệm/kỹ năng $\rightarrow$ tốn thời gian lọc thủ công, kéo dài Time-to-hire, dễ bỏ sót ứng viên tốt.
-*   **Huy #3: IT Helpdesk nội bộ quá tải ticket vặt**
-    *   *Workflow/Bottleneck:* Nhân viên công ty nhắn báo lỗi chung chung (Wi-Fi yếu, cài máy in, quên pass) $\rightarrow$ IT phải chat hỏi han, không có thời gian xử lý sự cố hạ tầng lớn.
-
----
-
-## 3. Top 3 Bài Toán Cá Nhân - Cao Văn Hảo (2A202600874)
-
-*   **Hảo #1: Lỗi app QR điểm danh trường & gian lận**
-    *   *Actor:* 500 sinh viên VinUni + Giảng viên.
-    *   *Workflow/Bottleneck:* SV vào lớp $\rightarrow$ mở app $\rightarrow$ nghẽn wifi $\rightarrow$ quét QR lỗi (do camera mờ hoặc iOS cũ < 16 không tải được app). Ngoài ra, SV chụp ảnh QR gửi qua Zalo để nhờ điểm danh hộ từ xa.
-    *   *Impact:* 20-30% SV bị lỗi phải điền form phụ, ước tính 10-15% SV điểm danh hộ.
-*   **Hảo #4: Tìm tài liệu môn học bị phân tán**
-    *   *Workflow/Bottleneck:* Tài liệu nằm rải rác trên 4-5 nền tảng $\rightarrow$ mất 10-15 phút/lần tìm kiếm.
-*   **Hảo #7: Ôn thi không hiệu quả**
-    *   *Workflow/Bottleneck:* Đề cương dài 20-30 trang $\rightarrow$ ôn thi lan man không đúng trọng tâm đề thi thực tế, tốn 2-3 ngày ôn thi sai phương pháp.
-
----
-
-## 4. Bảng Chấm Điểm & Phân Nhóm Hội Tụ (Clustering)
-
-### Nhóm gom các bài toán thành 5 Clusters chính và đánh giá trên thang điểm 1-5:
+### Phân nhóm 9 bài toán cá nhân thành 5 Clusters và chấm điểm Shortlist:
 
 | Ứng cử viên bài toán nhóm | Actor | Workflow | Pain evidence | Impact | Thực thi Lab | So sánh RWA | Hiểu domain | Tổng |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -121,216 +80,127 @@ style: |
 | **📝 Ôn thi hiệu quả (AI Study)** | 4 | 3 | 4 | 3 | 3 | 3 | 4 | **24** |
 | **💼 Quy trình doanh nghiệp (CSKH/ATS)** | 2 | 4 | 4 | 4 | 2 | 4 | 2 | **22** |
 
-*   *Cluster tài liệu phân tán:* Gom Hảo #4 và Hoàng #2.
-*   *Cluster ôn tập:* Gom Hảo #7 và Hoàng #1.
-*   *Cluster quy trình doanh nghiệp:* Gom Huy #1, Huy #2, Huy #3.
+> **Quyết định hội tụ:** Nhóm đồng thuận 3/3 chọn **Hệ thống điểm danh FaceID (Hảo #1)** làm bài toán trọng tâm để đi sâu nghiên cứu và phát triển giải pháp AI.
 
 ---
 
-## 5. Biện Luận Loại Bỏ Các Bài Toán Khác (Hoàng & Huy)
+## 2. Biện Luận Lựa Chọn Đề Tài Đóng Khung Nhóm
 
-*   **Tại sao loại bỏ bài toán của Vũ Tuấn Hoàng (Học tập & Lab)?**
-    *   *Learning Overwhelm (Hoàng #1) & AI Study (Hảo #7):* Định nghĩa thế nào là "nhớ lâu" hay "hiểu sâu" rất khó đo lường chính xác bằng các chỉ số kỹ thuật. Thuật toán cá nhân hóa học tập đòi hỏi lượng dữ liệu người dùng khổng lồ để kiểm chứng, không khả thi cho MVP ngắn ngày.
-    *   *Cấu hình môi trường Lab (Hoàng #5):* Lỗi cài đặt thư viện/môi trường quá dị biệt, phụ thuộc hệ điều hành/phần cứng. Không thể gom đủ dữ liệu lỗi để huấn luyện AI chính xác.
-*   **Tại sao loại bỏ bài toán của Phạm Quang Huy (Doanh nghiệp)?**
-    *   *CSKH hoàn tiền (Huy #1), Lọc CV (Huy #2), IT Helpdesk (Huy #3):* Đều là bài toán ROI cao nhưng **không thể tiếp cận dữ liệu thật** (CV ứng viên thật, data giao dịch e-commerce) do bảo mật doanh nghiệp. Việc khảo sát recruiter/CSKH agent thực tế rất khó khăn, nhóm chỉ có thể xây dựng trên giả định lý thuyết.
-
----
-
-## 6. Biện Luận Lựa Chọn Hệ Thống Điểm Danh FaceID (Hảo #1)
-
-*   **Tính khả thi của dữ liệu vượt trội (Data Feasibility):**
-    Nhóm có thể tự chụp ảnh khuôn mặt các bạn sinh viên trong lớp (với sự đồng thuận rõ ràng) để làm bộ dữ liệu huấn luyện thật. Dữ liệu thật, trực quan, dễ dán nhãn.
-*   **Khả năng thử nghiệm thực tế ngay lập tức (Real Validation):**
-    Dễ dàng lắp 1 camera IP LAN ngay tại cửa phòng học thực tế, chạy so khớp real-time và khảo sát lấy ý kiến phản hồi của giảng viên/SV tại phòng học đó.
-*   **Workflow đóng khung, nghiệp vụ rõ ràng:**
-    Quy trình tuyến tính đơn giản: SV đi qua cửa $\rightarrow$ capture $\rightarrow$ nhận diện $\rightarrow$ ghi log. Giảng viên đóng vai trò kiểm soát (Human-in-the-loop) để override kết quả nếu AI gặp lỗi nhận diện (đeo khẩu trang, thiếu sáng).
-*   **AI là duy nhất & giải quyết triệt để:**
-    FaceID là giải pháp duy nhất loại bỏ cả điện thoại của SV và wifi trường (dùng LAN có dây cho camera), đồng thời chống gian lận điểm danh hộ 100%.
+*   **Tại sao loại bỏ bài toán của Hoàng (Học tập & cấu hình Lab)?**
+    *   *AI Study:* Khó định lượng mức độ "hiểu/nhớ" của SV để đánh giá hiệu quả MVP.
+    *   *Lab Setup:* Lỗi môi trường, xung đột thư viện/OS quá dị biệt, không thể thu thập đủ data lỗi để AI bao quát.
+*   **Tại sao loại bỏ bài toán của Huy (Vận hành doanh nghiệp)?**
+    *   *CSKH hoàn tiền / Lọc CV ATS / IT Helpdesk:* Đều có ROI cao nhưng **không thể tiếp cận dữ liệu thật** (CV ứng viên thật, data giao dịch e-commerce) do bảo mật doanh nghiệp. Khó kiểm chứng thực tế (R/W/A).
+*   **Tại sao FaceID điểm danh là tối ưu nhất?**
+    *   *Dữ liệu khả thi:* Tự thu thập mẫu ảnh SV tại lớp dễ dàng.
+    *   *Validation trực quan:* Lắp camera chạy thử nghiệm real-time ngay cửa phòng học.
+    *   *AI là duy nhất:* Giải quyết triệt để lỗi thiết bị/wifi và chống gian lận điểm danh hộ 100%.
 
 ---
 
-## 7. Sơ Đồ Phễu Chọn Lọc Đề Tài
+## 3. Kiểm Chứng Thực Tế Bài Toán Điểm Danh (Validation)
 
-```text
-    ┌──────────────────────────────────────────────┐
-    │          9 problems từ 3 thành viên          │  INPUT
-    │ (Học tập, Lỗi cài Lab, Điểm danh, Doanh nghiệp)│
-    └──────────────────────┬───────────────────────┘
-                           │
-                           ▼
-    ┌──────────────────────────────────────────────┐
-    │         Phân nhóm thành 5 Clusters           │  CLUSTERING
-    │ (Tài liệu, Ôn thi, Điểm danh, Setup Lab, Biz)│
-    └──────────────────────┬───────────────────────┘
-                           │
-                    ┌──────▼──────┐
-                    │  Đánh giá   │  EVALUATION (Tần suất, Pain,
-                    │  theo tiêu  │  khả năng lấy dữ liệu thật,
-                    │  chí thực tế│  độ khả thi triển khai lab)
-                    └──────┬──────┘
-                           │
-              ┌────────────▼────────────┐
-              │  Hệ thống điểm danh    │  WINNING CANDIDATE
-              │  (Tần suất cao, pain    │
-              │  nặng, dễ lấy data SV)  │
-              └────────────┬────────────┘
-                           │
-                    ┌──────▼──────┐
-                    │  ★ WINNER ★ │
-                    │   FaceID    │  OUTPUT
-                    │  Điểm danh  │
-                    └─────────────┘
-```
-
----
-
-## 8. Kiểm Chứng Trực Thế (Validation Evidence)
-
-*   **Khảo sát nhanh 5 SV ngoài nhóm:**
-    *   *Xác nhận:* SV phản ánh thường xuyên bị lỗi app điểm danh của trường, thiết bị cũ không tương thích hệ điều hành, camera mờ, và nghẽn mạng wifi giờ cao điểm.
-    *   *Biện pháp:* GV tạm thời cho sinh viên điền Google Form thủ công. Tuy nhiên, quy trình kiểm soát form và sửa Excel tốn 24 tiếng hành chính.
+### Nhóm tiến hành thu thập minh chứng và khảo sát nhanh:
+*   **Khảo sát 5 SV ngoài nhóm:** SV phản ánh lỗi app QR liên tục (thiết bị iOS cũ không cài được app, camera mờ, nghẽn mạng wifi giờ cao điểm). Trường cho điền Google Form bù nhưng thời gian duyệt mail sửa Excel mất **24 tiếng**.
 *   **Ghi nhận lớp học thực tế (Tiết 2 ngày 29/05):**
-    *   Thầy giáo đứng lớp chủ động hỏi ai bị lỗi chưa điểm danh được buổi sáng, ngay lập tức có **hơn 20 SV giơ tay** (con số thực tế có thể lớn hơn vì lúc đó giờ nghỉ giải lao một số SV đang ngủ hoặc ở ngoài lớp).
+    Thầy giáo đứng lớp chủ động hỏi ai bị lỗi chưa điểm danh được, ngay lập tức có **hơn 20 SV giơ tay** (con số thực tế có thể lớn hơn vì lúc đó đang giải lao).
 *   **Phân tích Log Chuyên Cần kì trước (1500 lượt):**
-    *   25% SV phải dùng form dự phòng ít nhất 1 lần/kỳ; 8% lượt điểm danh bị ghi nhận vắng oan do sự cố ứng dụng.
+    *   **25%** SV phải dùng form dự phòng ít nhất 1 lần/kỳ do app lỗi.
+    *   **8%** lượt điểm danh bị ghi nhận vắng oan do sự cố mạng/thiết bị.
 
 ---
 
-## 9. Phân Tích Khoảng Trống Công Nghệ (Gap Analysis)
+## 4. Nghiên Cứu Giải Pháp & Phân Tích Khoảng Trống (Gap)
 
-### Chưa có giải pháp nào giải quyết đồng thời: Tự động hóa + Không dùng ĐT + Chống gian lận
+### So sánh giải pháp đề xuất với các giải pháp hiện tại:
 
-| Tính năng cần có | QR App trường | Gọi tên thủ công | Vân tay | FACEID (ĐỀ XUẤT) |
+| Tính năng | QR App trường | Gọi tên thủ công | Vân tay | FACEID (ĐỀ XUẤT) |
 | :--- | :---: | :---: | :---: | :---: |
-| **Không cần ĐT của SV** | ❌ | ✅ | ✅ | **✅** |
+| **Không dùng ĐT của SV** | ❌ | ✅ | ✅ | **✅** |
 | **Tự động hóa (<1 phút)** | ❌ | ❌ | ❌ | **✅** |
 | **Chống gian lận 100%** | ❌ | ✅ | ✅ | **✅** |
-| **Không phụ thuộc Wifi** | ❌ | ✅ | ✅ | **✅** (Dùng mạng LAN) |
-| **Tránh nghẽn xếp hàng** | ⚠️ | ❌ | ❌ | **✅** (Camera quét góc rộng) |
-| **Dashboard GV realtime** | ⚠️ | ❌ | ⚠️ | **✅** |
+| **Không phụ thuộc Wifi** | ❌ | ✅ | ✅ | **✅** (Camera nối LAN) |
+| **Tránh nghẽn xếp hàng** | ⚠️ | ❌ | ❌ | **✅** (Quét diện rộng) |
 
-> *Khoảng trống:* QR App nghẽn wifi và dễ gian lận quét hộ qua Zalo. Gọi tên mất 15 phút của lớp 170 SV. Vân tay gây xếp hàng ùn tắc ở cửa. FaceID là giải pháp duy nhất giải quyết triệt để các hạn chế trên.
-
----
-
-## 10. Quy Trình Điểm Danh Hiện Tại (As-Is)
-
-```text
-CURRENT STATE — 8 bước, mất 8-18 phút đầu giờ đối với lớp sĩ số đông (~170 SV)
-
-┌─────────────┐      ┌─────────────┐      ┌─────────────┐      ┌──────────────────┐
-│ Bước 1      │      │ Bước 2      │      │ Bước 3      │      │ Bước 4           │
-│ SV vào lớp  │───►  │ Mở app ĐT   │───►  │ Kết nối     │───►  │ Chờ GV bật mã QR │
-│             │      │             │      │ wifi trường │      │ trên máy chiếu   │
-│ Ai: SV      │      │ Ai: SV      │      │ Ai: SV      │      │ Ai: GV           │
-│ ⏱ 0'        │      │ ⏱ 1'        │      │ ⏱ 2'        │      │ ⏱ 1'             │
-└─────────────┘      └──────┬──────┘      └─────────────┘      └──────────────────┘
-                            │ (iPhone < iOS 16                                    
-                            │  không tải được)                                    
-                            ▼                                                     
-                     ┌─────────────┐                                              
-                     │ Bước 5      │◄─────────────────────────────────────────────┘
-                     │ Quét QR     │
-                     │             │ (Lỗi camera mờ, mạng lag,
-                     │ Ai: SV      │  gian lận chụp QR gửi Zalo)
-                     │ ⏱ 2' 🔴     │ (BOTTLENECK CHÍNH)
-                     └──────┬──────┘
-                            │
-            ┌───────────────┴───────────────┐
-            │ (Lỗi quét: 20-30% SV)         │ (Quét thành công: 70-80% SV)
-            ▼                               ▼
-     ┌─────────────┐                 ┌─────────────┐
-     │ Bước 6      │                 │ Bước 7      │
-     │ Điền form   │                 │ Hệ thống    │
-     │ phụ         │                 │ ghi nhận    │
-     │ Ai: SV      │                 │ Ai: App     │
-     │ ⏱ 3-5'      │                 │ ⏱ 0'        │
-     └──────┬──────┘                 └─────────────┘
-            │
-            ▼
-     ┌─────────────┐
-     │ Bước 8      │
-     │ GV check &  │
-     │ sửa tay     │
-     │ Ai: GV      │
-     │ ⏱ 5-10'     │
-     └─────────────┘
-```
+> *GAP công nghệ:* Chưa có giải pháp nào đồng thời đảm bảo **Tự động nhanh + Không cần điện thoại/mạng SV + Chống gian lận**. FaceID là giải pháp duy nhất lấp đầy khoảng trống này.
 
 ---
 
-## 11. Quy Trình Điểm Danh Đề Xuất (To-Be)
+## 5. Quy Trình Hiện Tại & Điểm Nghẽn (As-Is Workflow)
+
+*   **Quy trình 8 bước tốn 8-18 phút đầu giờ:**
+    SV vào lớp $\rightarrow$ Mở app ĐT $\rightarrow$ Kết nối wifi trường (nghẽn mạng) $\rightarrow$ Chờ GV chiếu QR $\rightarrow$ Quét QR code.
+*   **Bottleneck chính (Bước 5):** Quét QR code gặp lỗi kết nối/camera hoặc SV chụp ảnh QR gửi Zalo nhờ điểm danh hộ.
+*   **Xử lý lỗi (Bước 6, 8):** SV lỗi quét phải điền Form phụ $\rightarrow$ GV phải check email, đối chiếu và sửa thủ công trên file Excel $\rightarrow$ Mất thêm 5-10 phút của giảng viên cuối giờ.
 
 ```text
-FUTURE STATE — 5 bước, chỉ mất <1 phút, tự động hoàn toàn không dùng ĐT & Wifi
-
-┌──────────────┐      ┌──────────────────┐      ┌──────────────────┐
-│ Bước 1       │      │ Bước 2           │      │ Bước 3           │
-│ SV bước vào  │───►  │ Camera IP capture│───►  │ AI Server match  │
-│ cửa lớp      │      │ frame khuôn mặt  │      │ với database     │
-│              │      │                  │      │                  │
-│ Ai: SV       │      │ Ai: Camera 🔵    │      │ Ai: Model AI 🔵  │
-│ ⏱ 0'         │      │ ⏱ 0.5'           │      │ ⏱ 0.2'           │
-└──────────────┘      └──────────────────┘      └───────┬──────────┘
+SV vào lớp ──► Mở app ──► Kết nối Wifi ──► Chờ QR ──► [Quét QR (🔴 Bottleneck)]
                                                         │
-                            ┌───────────────────────────┴───────────────────────────┐
-                            │ (Match >95%)                                          │ (Match <80% / Lỗi camera)
-                            ▼                                                       ▼
-                     ┌──────────────┐                                        ┌──────────────┐
-                     │ Bước 4       │                                        │ FALLBACK:    │
-                     │ Hệ thống ghi │                                        │ GV điểm danh │
-                     │ log có mặt   │                                        │ thủ công 🟢  │
-                     │ Ai: Server   │                                        └────────────────┘
-                     │ ⏱ 0.1'       │                                        
-                     └──────┬───────┘                                        
-                            │                                                       
-                            ▼                                                       
-                     ┌──────────────────────────────────────────────────────────────┐
-                     │ Bước 5                                                       │
-                     │ Dashboard GV realtime & App SV cập nhật trạng thái           │
-                     │ Ai: Dashboard + App 🟢                                       │
-                     │ ⏱ 0.1'                                                       │
-                     └──────────────────────────────────────────────────────────────┘
-
-                     🔵 = AI Boundary (Chạy tự động trên server)
-                     🟢 = Human Boundary / Intervention (Giảng viên giám sát & override)
+         ┌─────────────────── Lỗi quét (20-30%) ────────┴───► Thành công (70%)
+         ▼
+ Điền form phụ ──► GV check mail & sửa tay Excel (Mất 5-10 phút)
 ```
 
 ---
 
-## 12. Problem Statement v1 (Bản chuẩn hóa)
+## 6. Quy Trình Tương Lai Đề Xuất (To-Be Workflow)
 
-| Thành phần | Nội dung chi tiết |
-| :--- | :--- |
-| **Actor** | 500 sinh viên chia 3 lớp (~170 SV/lớp) + Giảng viên tại VinUni. |
-| **Workflow** | SV vào lớp $\rightarrow$ Camera IP tự động quét mặt $\rightarrow$ AI Server so khớp DB $\rightarrow$ Ghi log có mặt $\rightarrow$ Hiển thị dashboard real-time. |
-| **Bottleneck** | Khẩu trang/thiếu sáng làm AI không nhận dạng được (tỷ lệ nhỏ, chuyển sang GV check thủ công). |
-| **Impact** | Tiết kiệm 8-18 phút lãng phí mỗi buổi học. Loại bỏ 100% tỷ lệ lỗi QR (20-30%) và gian lận điểm danh hộ qua Zalo (10-15%). |
-| **Success Metric** | Giảm thời gian điểm danh xuống **<1 phút** (↓95%). Tỷ lệ lỗi quét QR giảm từ 30% xuống **0%**. |
-| **AI Boundary** | AI chỉ nhận diện khuôn mặt và lưu log vào DB. Giảng viên giữ quyền tối cao để override/chỉnh sửa kết quả (Human-in-the-loop). |
-| **AI Intervention**| Bước so khớp khuôn mặt (Face Matching) tự động sau khi camera capture frame cửa lớp. |
-| **Mức chọn** | **AI Workflow** kết hợp Rule-based threshold. |
+*   **Quy trình 5 bước tự động hóa (<1 phút):**
+    SV đi qua cửa lớp $\rightarrow$ Camera IP tự động capture $\rightarrow$ AI Server so khớp vector $\rightarrow$ Ghi log DB $\rightarrow$ Đồng bộ hiển thị Dashboard/App.
 
----
+```text
+SV qua cửa ──► Camera capture (🔵 AI) ──► Match DB (🔵 AI) ──► Ghi nhận DB (🔵 AI)
+                                                                 │
+      ┌────────────────── Realtime Sync ─────────────────────────┴──► Dashboard GV & App SV
+      ▼
+[FALLBACK 🟢]: Match <80% / Lỗi camera ──► GV điểm danh thủ công tại chỗ
+```
 
-## 13. Lựa Chọn Giải Pháp AI: AI Workflow
-
-### Nhóm phân tích và so sánh 3 mức độ ứng dụng công nghệ:
-
-*   **1. Mức Rule-based (Không dùng AI):**
-    *   *Giải pháp:* Nâng cấp app QR, check GPS/địa chỉ IP/MAC wifi để xác định vị trí.
-    *   *Rủi ro:* Vẫn phụ thuộc điện thoại sinh viên và wifi nghẽn mạng. Không giải quyết được camera mờ.
-*   **2. Mức AI Workflow (LỰA CHỌN CỦA NHÓM):**
-    *   *Giải pháp:* Kết hợp camera IP chụp hình $\rightarrow$ model AI (OpenCV + face_recognition) trích xuất đặc trưng $\rightarrow$ so khớp vector $\rightarrow$ ghi nhận database.
-    *   *Lý do chọn:* Điểm danh là quy trình tuyến tính, cố định tại cửa lớp. AI hoạt động ở bước phát hiện/so khớp, logic nghiệp vụ chạy rule-based là đủ ổn định và tin cậy.
-*   **3. Mức AI Agent (Tự trị):**
-    *   *Giải pháp:* AI tự động giám sát học viên trong lớp, tự hỏi đáp nếu nghi ngờ vắng mặt.
-    *   *Rủi ro:* Chi phí vận hành rất cao, cấu trúc kỹ thuật phức tạp không cần thiết cho MVP.
+*   **AI Boundary:** Tự động phát hiện, trích xuất đặc trưng và so khớp vector.
+*   **Human Boundary:** Giảng viên giám sát, giữ quyền tối cao override kết quả chuyên cần. Sinh viên kiểm tra trạng thái trên app cá nhân.
 
 ---
 
-## 14. Kiến Trúc Hệ Thống FaceID Chi Tiết
+## 7. So Sánh Hiệu Quả Trước vs Sau Triển Khai
+
+*   **Thời gian điểm danh:**
+    *   *Trước:* ████████████████████ 18 phút
+    *   *Sau:*   █ <1 phút (Tiết kiệm thời gian giảng dạy)
+*   **Tỷ lệ lỗi quét thiết bị/wifi:**
+    *   *Trước:* ████████████████████ 20-30%
+    *   *Sau:*   ░ 0% (Loại bỏ điện thoại/wifi SV)
+*   **Gian lận điểm danh hộ:**
+    *   *Trước:* ████████████ 10-15%
+    *   *Sau:*   ░ 0% (Chỉ nhận diện người thật trực tiếp)
+*   **Độ trễ xử lý lỗi:**
+    *   *Trước:* 24 giờ hành chính (qua form phụ và mail)
+    *   *Sau:*   <1 giây (đồng bộ real-time dashboard)
+
+---
+
+## 8. Chuẩn Hóa Phát Biểu Bài Toán (Problem Statement v1)
+
+*   **Actor:** 500 sinh viên chia 3 lớp (~170 SV/lớp) + Giảng viên tại VinUni.
+*   **Workflow:** SV qua cửa lớp $\rightarrow$ Camera IP tự động quét mặt $\rightarrow$ AI Server so khớp DB $\rightarrow$ ghi log DB $\rightarrow$ Dashboard realtime.
+*   **Bottleneck:** SV đeo khẩu trang/thiếu sáng làm AI không nhận dạng được (tỷ lệ nhỏ, chuyển sang GV check thủ công tại chỗ).
+*   **Impact:** Tiết kiệm 8-18 phút lãng phí mỗi buổi học. Loại bỏ 100% tỷ lệ lỗi QR (20-30%) và gian lận điểm danh hộ qua Zalo (10-15%).
+*   **Success Metric:** Giảm thời gian điểm danh xuống **<1 phút** (↓95%). Tỷ lệ lỗi quét QR giảm từ 30% xuống **0%**.
+*   **AI Boundary:** AI chỉ nhận diện khuôn mặt và lưu log vào DB. Giảng viên giữ quyền tối cao để override/chỉnh sửa kết quả (Human-in-the-loop).
+
+---
+
+## 9. Phân Loại Giải Pháp AI: AI Workflow
+
+### So sánh mức độ ứng dụng công nghệ:
+1.  **Mức Rule-based (Không dùng AI):** Nâng cấp app QR, bổ sung check GPS/IP/MAC. Rủi ro: Vẫn nghẽn wifi khi 500 SV truy cập cùng lúc và lỗi camera điện thoại.
+2.  **Mức AI Workflow (LỰA CHỌN CỦA NHÓM):**
+    *   *Giải pháp:* Camera capture $\rightarrow$ AI trích xuất vector khuôn mặt $\rightarrow$ so khớp vector DB $\rightarrow$ ghi log.
+    *   *Lý do chọn:* Điểm danh là quy trình tuyến tính cố định. Chỉ cần AI ở bước nhận diện/matching. Các nghiệp vụ cảnh báo, tính chuyên cần dùng logic lập trình rule-based là đủ ổn định.
+3.  **Mức AI Agent:** AI tự động quan sát hành vi, tự hỏi đáp khi SV vắng. Rủi ro: Cực kỳ phức tạp, chi phí cao, không cần thiết cho MVP.
+
+---
+
+## 10. Kiến Trúc Hệ Thống FaceID Đề Xuất
 
 ```text
     ┌─────────────────────────────────────────────────────────────┐
@@ -364,18 +234,18 @@ FUTURE STATE — 5 bước, chỉ mất <1 phút, tự động hoàn toàn khôn
 
 ---
 
-## 15. Quyết Định Đầu Tư (Go / No-Go)
+## 11. Quyết Định Đầu Tư (Final Decision)
 
 ### Đánh giá các tiêu chí quyết định (Tổng điểm: 87%):
-*   *Problem có thật?* **100%** (20+ SV giơ tay lỗi, log chuyên cần xác thực).
+*   *Problem có thật?* **100%** (Hơn 20 SV giơ tay lỗi, log chuyên cần xác thực).
 *   *AI thực sự cần?* **100%** (Chỉ AI mới nhận dạng không cần ĐT & wifi, chống gian lận).
 *   *Tính khả thi dữ liệu?* **80%** (Dễ thu thập bộ ảnh mẫu trực tiếp tại lớp).
-*   *Năng lực nhóm?* **70%** (Sử dụng các thư viện mã nguồn mở Python có sẵn).
+*   *Năng lực nhóm?* **70%** (Sử dụng thư viện Python có sẵn OpenCV/face_recognition).
 
 ### QUYẾT ĐỊNH CUỐI CÙNG: 🟢 GO
 
-*   **Kế hoạch chạy thử (MVP):** Thử nghiệm tại 1 phòng thực hành (sĩ số 40 SV). Lấy 5 ảnh mẫu của 40 SV này để đăng ký. Dùng 1 camera IP LAN kết nối trực tiếp PC giảng viên.
-*   **Kế hoạch rút lui (Rollback):** Nếu tỷ lệ nhận diện sai (False Positive) > 5% trong 2 tuần chạy thử, hoặc camera lỗi kết nối phần cứng > 3 lần/tuần $\rightarrow$ rollback về hệ thống quét QR code cũ kết hợp điền form thủ công để tối ưu hóa lại thuật toán AI.
+*   **Kế hoạch chạy thử (MVP):** Thử nghiệm tại 1 phòng thực hành (40 SV). Lấy 5 ảnh mẫu của 40 SV để đăng ký. Dùng 1 camera IP LAN kết nối trực tiếp PC giảng viên.
+*   **Kế hoạch rút lui (Rollback):** Nếu tỷ lệ nhận diện sai (False Positive) > 5% trong 2 tuần chạy thử, hoặc camera lỗi kết nối phần cứng > 3 lần/tuần $\rightarrow$ rollback về hệ thống quét QR code cũ để tối ưu hóa lại thuật toán AI.
 
 ---
 
